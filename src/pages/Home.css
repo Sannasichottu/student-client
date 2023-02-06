@@ -1,0 +1,74 @@
+.styled-table {
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 0.9em;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    width: 45px;
+    height: 23px;
+    left: 656px;
+    top: 315px;
+    max-width: 800px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr{
+    background-color: #E5E5E5;
+    color:#000000;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 15px 25px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #E5E5E5;
+    color: #747474;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type{
+    border-bottom: 1px solid #D8D8D8;
+}
+
+.btn{
+    border: none;
+    color: white;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 30px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.btn-edit {
+    color: #4C5EFF;
+}
+
+.btn-delete {
+    color: #FF4C4C;
+}
+
+.btn-view {
+    background-color: #e7e7e7;
+    color: rgb(37, 168, 191);
+}
+
+.btn-student {
+    background-color: #000000;
+    margin-bottom: 10px;
+    color: white;
+}
